@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    color: blue;
+}
+header{
+    background-color: #324C95;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #57C7A2;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.page{
+    max-width: 960px;
+    margin: 0 auto;
+}
+a{
+    color: white;
+}
