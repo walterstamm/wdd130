@@ -15,6 +15,14 @@ body {
 
 }
 
+nav a {
+  color: #e75d23;
+  }
+
+a:hover { color: blue; 
+background-color: gold;
+}
+
 
 h3 {
   color: blue;
@@ -124,6 +132,8 @@ footer img {
   height: 40px;
   width: auto;
 }
+
+
 
 .conteinerFooter{
   display: flex;
