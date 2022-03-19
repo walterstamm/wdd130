@@ -54,7 +54,7 @@ h3 {
   color: brown;
 }
 header {
-
+  background-color: #a9ddec;
   display: flex;
   margin: auto;
   align-items: center;
@@ -91,7 +91,7 @@ header {
 }
 
 footer {
-  background-color: #57c7a2;
+  background-color: #a9ddec;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row: 3/4;
@@ -123,4 +123,59 @@ h4{
   margin: auto;
 }
 
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+}
+
+.page-headline{
+  text-align: center;
+ background-color: #eee8aa;
+  font-size: 2em;
+grid-column: 1/2;
+
+}
+
+.page-paragraph{
+  text-align: justify;
+ margin: 1px 0 0 0;
+ grid-column: 1/2;
+ font-size: 1.2em;
+ 
+ }
+
+.page-img{
+  display: block;
+   width: 100%;
+   grid-column: 1/2;
+   grid-gap: 1em;
+  border: 2px solid #16425b;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #787777;  
+  }
+
+
+  details{
+    background: #ebd5d5;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  summary{
+    list-style: none;
+    font-weight: bold;
+  }
+
+  summary::before{
+    content: '+';
+    padding-right: 1rem;
+  }
+
+  details[open] summary::before{
+    content: '-';
+  }
 
