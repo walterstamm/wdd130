@@ -13,12 +13,11 @@ body {
       border-radius: 10px;
       overflow: hidden;
       position: relative;
-  }
-  .card{
       width: 400px;
       height: auto;
       box-shadow: 1px 1px 1px 4px; 
   }
+
   img{
       max-width: 100%;
   }
