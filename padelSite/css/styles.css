@@ -1,16 +1,3 @@
-/* Fonts from Google Fonts - more at https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family|Roboto:wght@100&family|Source+Sans+3:wght@200&display=swap');
-
-
-@media screen and (max-width: 550px) {
-
-  .home-grid {
-    display: block;
-  }
-
-  
-}
-
 .home-grid,
 nav ul,
 .imgHome {
@@ -29,7 +16,7 @@ header {
   grid-template-columns: 400px auto;
   grid-template-rows: 200px auto;
 
-  background-color: #84CCCE;
+  background-color: #52BE80;
 }
 
 .logo-box {
@@ -73,7 +60,7 @@ a:hover {
 }
 .imgHome img {
   width: 100%;
-  grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
+  grid-column: 1 / -1; 
   grid-row: 1/6;
 }
 
@@ -96,8 +83,8 @@ a:hover {
 
 
 body {
-  background-color: #26597e;
-  font-family: Roboto, Monserrat, SourceSans3;
+  background-color: #A2D9CE;
+  font-family: 'Roboto', sans-serif;
   padding: 5px 25px;
   font-size: 18px;
   margin: 0;
@@ -105,15 +92,15 @@ body {
 }
 
 h1 {
-  font-family: Monserrat, Roboto, SourceSans3;
+  font-family: 'Roboto', sans-serif;
   font-size: 32px;
   color: white
 }
 
 
 h2 {
-  background-color: #84CCCE;
-  font-family: Monserrat, Roboto, SourceSans3;
+  background-color: #52BE80;
+  font-family: 'Roboto', sans-serif;
   padding: 1em;
   font-size: 2em;
   line-height: 0.5em;
@@ -335,7 +322,7 @@ footer {
   width: 100%;
   padding: 1em 0;
   color: #112031;
-  background-color: #caf0f8;
+  background-color: #52BE80;
   text-align: right;
   grid-template-columns: 1fr 1fr;
   
